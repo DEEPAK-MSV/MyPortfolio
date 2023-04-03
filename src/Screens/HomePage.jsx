@@ -1,5 +1,6 @@
 import React from 'react'
 import { FiDownload } from 'react-icons/fi'
+import devloper from '../imgs/developer.png'
 
 
 function HomePage() {
@@ -17,7 +18,7 @@ function HomePage() {
                     </a>
                 </div>
                 <div className='w-full h-full justify-end content-center flex lg:w-6/12'>
-                    <img src='src\imgs\developer.jpeg' className='w-full h-full rounded-lg drop-shadow-lg' />
+                    <img src={devloper} className='w-full h-full rounded-lg drop-shadow-lg' />
                 </div>
             </div>
         </div>
