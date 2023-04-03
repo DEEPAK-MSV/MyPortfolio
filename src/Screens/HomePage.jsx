@@ -17,7 +17,7 @@ function HomePage() {
                     </a>
                 </div>
                 <div className='w-full h-full justify-end content-center flex lg:w-6/12'>
-                    <img src='src\assets\developer.svg' className='w-full h-full rounded-lg drop-shadow-lg' />
+                    <img src='src\imgs\developer.svg' className='w-full h-full rounded-lg drop-shadow-lg' />
                 </div>
             </div>
         </div>
