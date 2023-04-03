@@ -10,7 +10,7 @@ function HomePage() {
                     <h1 className='text-4xl font-bold text-white uppercase text-left'>hi, iam deepak</h1>
                     <p className='text-3xl font-bold font-serif text-white uppercase'>front-end developer</p>
                     <a download='Resume.pdf' href='src\assets\Resume.pdf' >
-                        <button className='bg-indigo-400 rounded p-3 drop-shadow-lg hover:bg-white flex flex-row text-center justify-center content-center'>
+                        <button className='bg-indigo-400 rounded p-3 drop-shadow-lg hover:bg-indigo-900 hover:text-white duration-100 flex flex-row text-center justify-center content-center'>
                             <FiDownload className='text-2xl' />
                             <h1 className='text-sl font-bold font-serif px-2'>Download</h1>
                         </button>
