@@ -35,7 +35,7 @@ function Header() {
         </div>
         <div className='sd:hidden'>
           <a href='mailto:deepakkiriti.m.s.v@gmail.com'>
-          <button className='bg-indigo-400 rounded mx-4 px-3 py-2 drop-shadow-lg cursor-default'>Hire Me</button>
+          <button className='bg-indigo-400 rounded mx-4 px-3 py-2 drop-shadow-lg cursor-default font-serif text-slate-100 font-bold'>Hire Me</button>
           </a>
         </div>
         </div>
