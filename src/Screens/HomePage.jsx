@@ -17,7 +17,7 @@ function HomePage() {
                     </a>
                 </div>
                 <div className='w-full h-full justify-end content-center flex lg:w-6/12'>
-                    <img src='https://react-tailwindcss-portfolio.netlify.app/static/media/developer-dark.3f07bd13.svg' className='w-full h-full' />
+                    <img src='https://drive.google.com/file/d/1kByI2ego6isABo_-WNmCYe1Vey8VQHgo/view?usp=share_link' className='w-full h-full' />
                 </div>
             </div>
         </div>
