@@ -17,7 +17,7 @@ const routes = [
 
 function Header() {
   return (
-    <div>
+    <div className='w-full justify-center content-center flex'>
       <div className='w-full justify-between content-center my-5 flex flex-row cursor-default'>
         <Link to='/'>
           <div className='flex flex-row mx-5 cursor-default'>
