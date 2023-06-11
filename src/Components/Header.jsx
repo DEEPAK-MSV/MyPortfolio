@@ -25,7 +25,7 @@ function Header() {
             <h1 className='text-3xl font-bold font-serif text-white text-center'>Portfolio</h1>
           </div>
         </Link>
-        <div className='flex flex-row space-x-10'>
+        <div className='flex flex-row items-center space-x-10'>
         <div className='flex-row flex cursor-pointer items-center space-x-3'>
           {routes.map((route) => (
             <NavLink key={route.id} to={route.path}>

@@ -8,8 +8,8 @@ function HomePage() {
         <div className='w-full h-full mb-20'>
             <div className='w-full h-full justify-center content-center flex flex-col lg:flex-row'>
                 <div className='justify-center content-center flex flex-col mt-10 lg:mt-60 space-y-4 lg:w-6/12 ml-10'>
-                    <h1 className='text-4xl font-bold text-white uppercase text-left'>hi, iam deepak</h1>
-                    <p className='text-3xl font-bold font-serif text-white uppercase'>front-end developer</p>
+                    <h1 className='text-4xl font-bold text-white uppercase text-left'>hi, iam Deepak</h1>
+                    <p className='text-3xl font-bold font-serif text-white uppercase'>Full-Stack Web developer</p>
                     <a download='Resume.pdf' href='src/assets/Resume.pdf' >
                         <button className='bg-indigo-400 mb-3 rounded p-3 drop-shadow-lg hover:bg-indigo-900 hover:text-white duration-100 flex flex-row text-center justify-center content-center'>
                             <FiDownload className='text-2xl' />

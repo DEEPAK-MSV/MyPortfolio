@@ -4,7 +4,7 @@ import ReactSvg from '../assets/react.svg';
 
 function About() {
   const skills = [
-    "HTML5", "CSS", "Javascript", "reactjs", "bootstrap", "reactnative"
+    "ReactJs", "Nodejs", "MongoDb", "Express", "ReactNative", "Tailwind"
   ]
   return (
     <div className='text-center flex flex-col justify-center content-center mb-8'>
@@ -12,17 +12,31 @@ function About() {
         <h1 className='text-center text-white font-bold text-2xl font-serif'>About Me</h1>
         <div className='flex felx-row justify-center content-center m-10'>
           <div className='w-3/12 h-full float-left'>
-          <img src={ReactSvg} alt='React logo' className='w-3/6 h-3/6 float-left' />
+            <img src={ReactSvg} alt='React logo' className='w-3/6 h-3/6 float-left' />
           </div>
           <div className='w-9/12 h-full float-right'>
-          <p className='text-white font-general text-sl float-right mx-8 text-left uppercase'>
-            With one year of experience in React Native development, I have gained a deep understanding of the framework's capabilities and limitations.
-            React Native is a cross-platform mobile application development framework that allows developers to build applications for both iOS and Android platforms using JavaScript and React.
-            During my experience, I have honed my skills in building intuitive user interfaces, integrating third-party libraries and APIs, and troubleshooting issues.
-            In conclusion, my one-year experience in React Native development has provided me with a strong foundation in building cross-platform mobile applications.
-            I have gained proficiency in building intuitive user interfaces, integrating third-party libraries and APIs, and optimizing application performance.
-            I am excited to continue learning and growing in this field, and I am confident that my skills and experience make me a valuable asset to any development team.
-          </p>
+            <p className='text-white font-mono text-sl float-right mx-8 text-left uppercase'>
+              Hi there! I'm a full-stack web developer, I absolutely love what I do
+              and I'm passionate about crafting awesome applications that people
+              can enjoy using.
+              My journey into web development started with a curiosity about
+              the inner workings of the internet. From there, I dove headfirst into
+              learning and exploring all aspects of web development. I've had the
+              opportunity to work on a variety of projects, which has allowed me to
+              gain valuable skills across the entire development stack.
+              I thrive in collaborative and dynamic environments where I can
+              bring my problem-solving skills and attention to detail to the table. I
+              believe that teamwork and communication are essential for creating
+              remarkable products.
+              When it comes to front-end development, I'm well-versed in HTML,
+              CSS, and JavaScript. I'm also familiar with modern frameworks like
+              React.js and Next.js, which I use to build beautiful and user-friendly
+              interfaces.
+              On the back-end side, I have experience with the server-side
+              programming language Node.js. I've worked with the framework
+              Express to build robust and scalable web applications. I'm also
+              comfortable working with databases like SQLite and MongoDB.
+            </p>
           </div>
         </div>
       </div>
