@@ -36,7 +36,7 @@ function Projects() {
     <div className='w-full h-full justify-center content-center text-center flex my-20 px-10'>
       <div className='flex flex-col justify-center content-center text-center space-y-10'>
         <h1 className='text-center text-white font-bold text-2xl font-serif'>Projects</h1>
-        <div className='flex felx-row'>
+        <div className='flex flex-col lg:flex-row'>
         {projects.map((project , index ) => (
         <div className='bg-slate-900 rounded-xl p-4 m-3 flex felx-row '>
               <div className='flex flex-col' key={index}>

@@ -42,7 +42,7 @@ function About() {
       </div>
       <div className='flex flex-col justify-center content-center text-center mt-10'>
         <h1 className='text-center text-xl text-white font-serif font-bold uppercase'>Skills</h1>
-        <div className='flex flex-row justify-center content-center text-ceter m-10'>
+        <div className='flex flex-col space-y-3 lg:space-y-0 justify-center content-center text-ceter m-10 lg:flex-row'>
           {skills.map((skill) => (
             <h1 className='text-white font-general text-lg mx-2 bg-indigo-900 p-3 rounded-xl uppercase'>{skill}</h1>
           ))}
