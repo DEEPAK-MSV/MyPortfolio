@@ -6,9 +6,9 @@ import devloper from '../imgs/developer.png'
 function HomePage() {
     return (
         <div className='w-full h-full mb-20'>
-            <div className='w-full h-full justify-center items-center flex flex-row'>
+            <div className='w-full h-full justify-center items-center flex flex-col lg:flex-row'>
                 <div className='justify-center items-center flex flex-col mt-10 space-y-4 lg:w-6/12 '>
-                    <h1 className='text-xl lg:text-4xl font-bold text-white uppercase text-center'>hi, iam Deepak</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold text-white uppercase text-center'>hi, iam Deepak</h1>
                     <p className='text-lg lg:text-3xl font-bold font-serif text-white uppercase text-center flex-nowrap'>Full-Stack Web developer</p>
                     <a download='Resume.pdf' href='src/assets/Resume.pdf' >
                         <button className='bg-indigo-400 mb-3 rounded p-3 drop-shadow-lg hover:bg-indigo-900 hover:text-white duration-100 flex flex-row text-center justify-center content-center'>
@@ -17,7 +17,7 @@ function HomePage() {
                         </button>
                     </a>
                 </div>
-                <div className='w-full h-full justify-end content-center flex lg:w-6/12'>
+                <div className='w-full h-full opacity-70 justify-center items-center flex'>
                     <img src={devloper} className='w-full h-full rounded-lg drop-shadow-lg' />
                 </div>
             </div>

@@ -18,14 +18,14 @@ const routes = [
 function Header() {
   return (
     <div className='w-full justify-center items-center flex'>
-      <div className='w-full justify-between items-center my-5 flex flex-row cursor-default'>
+      <div className='w-full justify-between items-center p-3 flex flex-row cursor-default'>
         <Link to='/'>
-          <div className='flex flex-row mx-5 cursor-default'>
+          <div className='flex flex-row cursor-default'>
             <FaDyalog className='text-3xl font-bold font-serif text-white text-center drop-shadow-2xl' />
             <h1 className='text-3xl font-bold font-serif text-white text-center'>Portfolio</h1>
           </div>
         </Link>
-        <div className='flex flex-row items-center space-x-10'>
+        <div className='flex flex-row justify-center items-center space-x-10'>
         <div className='flex-row flex cursor-pointer items-center space-x-3'>
           {routes.map((route) => (
             <NavLink key={route.id} to={route.path}>
