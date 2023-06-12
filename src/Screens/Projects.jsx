@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Projects() {
   const projects = [
@@ -7,28 +8,48 @@ function Projects() {
       name: 'Pulse Mobile App',
       img: 'https://cdn.dribbble.com/users/2345673/screenshots/16698256/media/888235710f030572a821871d233a92fe.png?compress=1&resize=400x300',
       type: 'Mobile App',
-      description: 'Pulse is a mobile app for tracking your heart rate and other vitals.'
+      description: 'Pulse is a mobile app for tracking your heart rate and other vitals.',
+      gitLink:"https://play.google.com/store/apps/details?id=pulse.active.stations&pli=1"
     },
     {
       id: 2,
       name: 'News App',
       img: 'https://cdn.dribbble.com/users/1753227/screenshots/16459690/media/3ab03a98c5332034cfcf9c6dd8773eac.png?compress=1&resize=400x300',
       type: 'Mobile App',
-      description: 'A news app that aggregates news from various sources and displays them in a user-friendly interface.'
+      description: 'A news app that aggregates news from various sources and displays them in a user-friendly interface.',
+      gitLink:"https://github.com/DEEPAK-MSV/NEWSAPP"
     },
     {
       id: 3,
       name: 'Gym Application',
       img: 'https://cdn.dribbble.com/userupload/6506940/file/original-68cfbdbcfd7489b1f18d873baa15ce08.jpg?resize=400x300',
       type: 'Mobile App',
-      description: 'A mobile app for Gym Exersices and pedometer with water intake counter buit using ReactNative'
+      description: 'A mobile app for Gym Exersices and pedometer with water intake counter buit using ReactNative',
+      gitLink:"https://github.com/DEEPAK-MSV/Gym_workout"
     },
     {
       id:4,
       name:"Blog Website",
       img:"https://cdn.dribbble.com/users/2412469/screenshots/20169150/media/dc0fe2941657e3298f1e5b5dc71c34d8.png?compress=1&resize=400x300",
       type:"website",
-      description:"A website for writing simple blogs buit using react, node, express and SQLite"
+      description:"A website for writing simple blogs buit using react, node, express and SQLite",
+      gitLink:"https://github.com/DEEPAK-MSV/Bloging"
+    },
+    {
+      id:4,
+      name:"Blog Website",
+      img:"https://cdn.dribbble.com/users/2412469/screenshots/20169150/media/dc0fe2941657e3298f1e5b5dc71c34d8.png?compress=1&resize=400x300",
+      type:"website",
+      description:"A website for writing simple blogs buit using react, node, express and SQLite",
+      gitLink:"https://github.com/DEEPAK-MSV/Bloging"
+    },
+    {
+      id:4,
+      name:"Blog Website",
+      img:"https://cdn.dribbble.com/users/2412469/screenshots/20169150/media/dc0fe2941657e3298f1e5b5dc71c34d8.png?compress=1&resize=400x300",
+      type:"website",
+      description:"A website for writing simple blogs buit using react, node, express and SQLite",
+      gitLink:"https://github.com/DEEPAK-MSV/Bloging"
     }
   ];
 
@@ -36,9 +57,10 @@ function Projects() {
     <div className='w-full h-full justify-center content-center text-center flex my-20 px-10'>
       <div className='flex flex-col justify-center content-center text-center space-y-10'>
         <h1 className='text-center text-white font-bold text-2xl font-serif'>Projects</h1>
-        <div className='flex flex-col lg:flex-row'>
+        <div className='flex flex-col lg:flex-row lg:flex-wrap justify-center items-center'>
         {projects.map((project , index ) => (
         <div className='bg-slate-900 rounded-xl p-4 m-3 flex felx-row '>
+          <Link to={project.gitLink} target='_blank'>
               <div className='flex flex-col' key={index}>
                 <div className='relative'>
                   <img src={project.img} alt={project.name} className='w-full h-full rounded-xl' />
@@ -53,7 +75,8 @@ function Projects() {
                   <h2 className='text-white uppercase'>{project.type}</h2>
                 </div>
               </div>
-          </div>
+              </Link>
+        </div>
             ))}
         </div>
       </div>
