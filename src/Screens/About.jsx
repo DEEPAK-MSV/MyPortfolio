@@ -7,16 +7,13 @@ function About() {
     "ReactJs", "Nodejs", "MongoDb", "Express", "ReactNative", "Tailwind"
   ]
   return (
-    <div className='text-center flex flex-col justify-center content-center mb-8'>
+    <div className='text-center flex flex-col justify-center items-center mb-8'>
       <div>
-        <h1 className='text-center text-white font-bold text-2xl font-serif'>About Me</h1>
-        <div className='flex felx-row justify-center content-center m-10'>
-          <div className='w-3/12 h-full float-left'>
-            <img src={ReactSvg} alt='React logo' className='w-3/6 h-3/6 float-left' />
-          </div>
-          <div className='w-9/12 h-full float-right'>
-            <p className='text-white font-mono text-sl float-right mx-8 text-left uppercase'>
-              Hi there! I'm a full-stack web developer, I absolutely love what I do
+        <h1 className='text-center text-white font-bold text-2xl font-serif mb-2'>About Me</h1>
+        <div className='flex flex-wrap justify-center items-center space-y-3 w-full h-full'>
+          <div className='lg:w-9/12 w-full h-full'>
+            <p className='text-white font-mono text-sl whitespace-break-spaces mx-8 text-left uppercase'>
+              Hi there!👋 I'm a full-stack web developer, I absolutely love what I do
               and I'm passionate about crafting awesome applications that people
               can enjoy using.
               My journey into web development started with a curiosity about

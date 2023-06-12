@@ -35,22 +35,6 @@ function Projects() {
       description:"A website for writing simple blogs buit using react, node, express and SQLite",
       gitLink:"https://github.com/DEEPAK-MSV/Bloging"
     },
-    {
-      id:4,
-      name:"Blog Website",
-      img:"https://cdn.dribbble.com/users/2412469/screenshots/20169150/media/dc0fe2941657e3298f1e5b5dc71c34d8.png?compress=1&resize=400x300",
-      type:"website",
-      description:"A website for writing simple blogs buit using react, node, express and SQLite",
-      gitLink:"https://github.com/DEEPAK-MSV/Bloging"
-    },
-    {
-      id:4,
-      name:"Blog Website",
-      img:"https://cdn.dribbble.com/users/2412469/screenshots/20169150/media/dc0fe2941657e3298f1e5b5dc71c34d8.png?compress=1&resize=400x300",
-      type:"website",
-      description:"A website for writing simple blogs buit using react, node, express and SQLite",
-      gitLink:"https://github.com/DEEPAK-MSV/Bloging"
-    }
   ];
 
   return (
