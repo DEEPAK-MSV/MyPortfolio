@@ -6,7 +6,7 @@ import devloper from '../imgs/developer.png'
 function HomePage() {
     return (
         <div className='w-full h-full mb-20'>
-            <div className='w-full h-full justify-center items-center flex flex-col lg:flex-row'>
+            <div className='w-full h-full justify-center items-center flex flex-col md:flex-row lg:flex-row'>
                 <div className='justify-center items-center flex flex-col mt-10 space-y-4 lg:w-6/12 '>
                     <h1 className='text-2xl lg:text-4xl font-bold text-white uppercase text-center'>hi, iam Deepak</h1>
                     <p className='text-lg lg:text-3xl font-bold font-serif text-white uppercase text-center flex-nowrap'>Full-Stack Web developer</p>
