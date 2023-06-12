@@ -41,7 +41,7 @@ function Projects() {
     <div className='w-full h-full justify-center content-center text-center flex my-20 px-10'>
       <div className='flex flex-col justify-center content-center text-center space-y-10'>
         <h1 className='text-center text-white font-bold text-2xl font-serif'>Projects</h1>
-        <div className='flex flex-col lg:flex-row lg:flex-wrap justify-center items-center'>
+        <div className='flex flex-col md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap justify-center items-center'>
         {projects.map((project , index ) => (
         <div className='bg-slate-900 rounded-xl p-4 m-3 flex felx-row '>
           <Link to={project.gitLink} target='_blank'>
