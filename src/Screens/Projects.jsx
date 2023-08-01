@@ -41,7 +41,7 @@ function Projects() {
       img:"https://cdn.dribbble.com/userupload/4105448/file/original-024b3282988f37cc5f61bf67ba7bb5c9.png?compress=1&resize=400x300&vertical=center",
       type:"website",
       description:"A Website to buy your favorite Pets With Amazing Discounts",
-      gitLink:"https://github.com/DEEPAK-MSV/PetSpot"
+      gitLink:"https://petspot.netlify.app/"
     }
   ];
 
