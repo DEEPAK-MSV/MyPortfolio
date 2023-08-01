@@ -34,7 +34,7 @@ function Header() {
           ))}
         </div>
         <div className='hidden md:inline-flex lg:inline items-center pb-3'>
-          <a href='mailto:deepakkiriti.m.s.v@gmail.com'>
+          <a href='mailto:kiritideepak@gmail.com'>
           <button className='bg-indigo-600 border border-indigo-900 items-center rounded mx-4 px-3 py-2 drop-shadow-lg cursor-default font-serif text-white font-bold hover:bg-indigo-900 hover:text-white'>Hire Me</button>
           </a>
         </div>
