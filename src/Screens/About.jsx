@@ -4,7 +4,7 @@ import ReactSvg from '../assets/react.svg';
 
 function About() {
   const skills = [
-    "ReactJs","Angular CLI", "Nodejs", "MongoDb", "Express", "ReactNative", "Tailwind"
+    "ReactJs","Angular", "Nodejs", "MongoDb", "Express", "ReactNative", "Tailwind"
   ]
   return (
     <div className='text-center flex flex-col justify-center items-center mb-8'>
