@@ -38,7 +38,7 @@ function Projects() {
     {
       id:5,
       name:"petspot",
-      img:"https://cdn.dribbble.com/userupload/4105448/file/original-024b3282988f37cc5f61bf67ba7bb5c9.png?compress=1&resize=400x300&vertical=center",
+      img:"https://cdn.dribbble.com/userupload/6115189/file/original-d5ca2bb08d5ab4ca7fc9bfca2b00e95f.png?resize=400x300",
       type:"website",
       description:"A Website to buy your favorite Pets With Amazing Discounts",
       gitLink:"https://petspot.netlify.app/"
