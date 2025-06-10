@@ -13,26 +13,15 @@ function About() {
         <div className='flex flex-wrap justify-center items-center space-y-3 w-full h-full'>
           <div className='lg:w-9/12 w-full h-full'>
             <p className='text-white font-mono text-sl whitespace-break-spaces mx-8 text-left uppercase'>
-              Hi there!👋 I'm a full-stack web developer, I absolutely love what I do
-              and I'm passionate about crafting awesome applications that people
-              can enjoy using.
-              My journey into web development started with a curiosity about
-              the inner workings of the internet. From there, I dove headfirst into
-              learning and exploring all aspects of web development. I've had the
-              opportunity to work on a variety of projects, which has allowed me to
-              gain valuable skills across the entire development stack.
-              I thrive in collaborative and dynamic environments where I can
-              bring my problem-solving skills and attention to detail to the table. I
-              believe that teamwork and communication are essential for creating
-              remarkable products.
-              When it comes to front-end development, I'm well-versed in HTML,
-              CSS, and JavaScript. I'm also familiar with modern frameworks like
-              React.js and Next.js, which I use to build beautiful and user-friendly
-              interfaces.
-              On the back-end side, I have experience with the server-side
-              programming language Node.js. I've worked with the framework
-              Express to build robust and scalable web applications. I'm also
-              comfortable working with databases like SQLite and MongoDB.
+                Hi there!👋 I'm a Detail-oriented and passionate Frontend Developer with over 2 years of hands-on experience building
+                high-performance, scalable, and mobile-friendly web applications. Specialized in Angular, Tailwind CSS,
+                RxJS, and RESTful APIs. Skilled at creating clean, modular front-end architecture using modern JavaScript
+                frameworks and tools. Proficient in Agile methodologies and a strong advocate for UI/UX consistency,
+                performance optimization, and cross-functional team collaboration. Adept at transforming complex business
+                requirements into elegant, user-centric interfaces with high code maintainability and testability. Experienced
+                in conducting frontend code reviews, optimizing web performance, and ensuring accessibility standards
+                compliance. Proven ability to deliver scalable solutions on tight deadlines while enhancing the end-user
+                experience.
             </p>
           </div>
         </div>
