@@ -9,7 +9,7 @@ function HomePage() {
             <div className='w-full h-full justify-center items-center flex flex-col md:flex-row lg:flex-row'>
                 <div className='justify-center items-center flex flex-col mt-10 space-y-4 lg:w-6/12 '>
                     <h1 className='text-2xl lg:text-4xl font-bold text-white uppercase text-center'>hi, iam Deepak</h1>
-                    <p className='text-lg lg:text-3xl font-bold font-serif text-white uppercase text-center flex-nowrap'>Full-Stack Web developer</p>
+                    <p className='text-lg lg:text-3xl font-bold font-serif text-white uppercase text-center flex-nowrap'>Front End developer</p>
                     <a download='Deepak_Angular_developer.pdf' href='https://drive.google.com/file/d/1mYjBlll1J_4jQ4wmr6husqI4XOvDLatT/view?usp=sharing' >
                         <button className='bg-indigo-400 mb-3 rounded p-3 drop-shadow-lg hover:bg-indigo-900 hover:text-white duration-100 flex flex-row text-center justify-center content-center'>
                             <FiDownload className='text-2xl' />
