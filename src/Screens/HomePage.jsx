@@ -17,7 +17,7 @@ function HomePage() {
                         </button>
                     </a>
                 </div>
-                <div className='w-full h-70 opacity-70 justify-center items-center flex'>
+                <div className='w-full h-1/2 opacity-70 justify-center items-center flex'>
                     <img src={devloper} className='w-full h-full rounded-lg drop-shadow-lg' />
                 </div>
             </div>
